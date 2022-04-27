@@ -50,6 +50,10 @@
     url('../fonts/changa-one-v16-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../fonts/changa-one-v16-latin-regular.svg#ChangaOne') format('svg'); /* Legacy iOS */
 }
+/****************************************************
+STYLE Généraux
+/****************************************************
+ */
 body {
     font-family: 'Open Sans' ,sans-serif;
     font-weight: 400;
@@ -63,3 +67,35 @@ h1, h2, h3
     font-family: 'changa one' , cursive;
     font-weight: 400;
 }
+
+ h1
+ {
+     font-size:2rem;
+     margin-bottom:2em;
+ }
+
+ h2
+ {
+     font-size: 1.5rem;
+     margin-bottom: .75em;
+ }
+
+ p
+ {
+    line-height: 1.5;
+ }
+ a
+ {
+     color: #e71d36;
+     text-decoration: none;
+ }
+ img
+ {
+     max-width: 100%;
+     height: auto;
+     width: auto;
+ }
+ /****************************************************
+ Entrée du site
+ /****************************************************
+  */
