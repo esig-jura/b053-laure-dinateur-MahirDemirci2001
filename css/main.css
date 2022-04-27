@@ -159,3 +159,22 @@ header nav ul li a:hover
     color: #2ec4b6;
     Transition: color 3s;
 }
+
+/******************************************
+Page information
+/******************************************
+ */
+.page-informations main img
+{
+    border-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 0;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.page-informations h1
+{
+    text-align: center;
+}
