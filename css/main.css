@@ -99,3 +99,63 @@ h1, h2, h3
  Entrée du site
  /****************************************************
   */
+header
+{
+    text-align: center;
+    background-color: #011627;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+header .nom
+{
+    color: #2ec4b6;
+    font-size: 1.75rem;
+    font-family: 'changa one',cursive;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    padding: 10px;
+    line-height: 0.8;
+
+}
+
+header .metier
+{
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+header nav
+{
+    padding: 10px 0;
+    margin: 20px 0 0;
+}
+
+header nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 10px;
+}
+header nav ul li
+{
+    display: inline;
+}
+/* Cache le li accueil*/
+header nav ul li.accueil
+{
+    display: none;
+}
+header nav ul li a
+{
+   color:#fdfffc;
+    font-weight: bold;
+    padding: 15px 10px;/* 15px haut/bas et 10 px gauche/droite*/
+}
+
+header nav ul li a:hover
+{
+    color: #2ec4b6;
+    Transition: color 3s;
+}
